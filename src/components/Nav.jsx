@@ -1,10 +1,13 @@
 import React from 'react'
+import "../css/header.css"
 
 const Nav = () => {
   return (
-    <div>
-      Nav
-    </div>
+    <header>
+      <div>
+
+      </div>
+    </header>
   )
 }
 
