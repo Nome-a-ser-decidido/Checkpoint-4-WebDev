@@ -8,21 +8,23 @@ import Footer from './components/Footer'
 
 
 function App() {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+
 
 
   return (
-    <>
     <BrowserRouter>
-     <Nav/>
-        <Routes>      
-          <Route path="*" element={<Error />} /> {/* Rota padrão para erros */}  
-          <Route path="/" element={<Home />} />
-          <Route path="/produto" element={<Produto />} />
-        </Routes>
-      <Footer/>
+      <Nav />
+      <Routes>
+        <Route path="*" element={<Error />} /> {/* Rota padrão para erros */}
+        <Route path="/" element={<Home />} />
+        <Route path="/produto" element={<Produto />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
+    </div>
 
-    </>
   )
 }
 
