@@ -5,20 +5,17 @@ import Home from './routes/Home';
 import Produto from './routes/Produtos';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Sobre from "./routes/Sobre"
 
 
 function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-
-
-
-  return (
     <BrowserRouter>
       <Nav />
       <Routes>
         <Route path="*" element={<Error />} /> {/* Rota padrão para erros */}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Sobre />} />
         <Route path="/produto" element={<Produto />} />
       </Routes>
       <Footer />
