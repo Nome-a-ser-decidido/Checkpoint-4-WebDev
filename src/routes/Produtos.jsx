@@ -15,18 +15,18 @@ const Produtos = () => {
 
     <div className="produtos-grid">
       <div className="produto">
-        <img src="../src/assets/logo.png" alt="Camisa Vasco" className="img-produto" />
-        <p>Camisa Vasco Oficial</p>
+        <img src="../src/assets/vasco22-removebg-preview.png" alt="Camisa Vasco" className="img-produto" />
+        <p>Camisa Vasco Dourada</p>
         <p className="preco">R$ 129.90</p>
       </div>
       <div className="produto">
-        <img src="../src/assets/logo.png" alt="Camisa Vasco Preta" className="img-produto" />
-        <p>Camisa Vasco Preta</p>
+        <img src="../src/assets/vasco3-removebg-preview.png" alt="Camisa Vasco Preta" className="img-produto" />
+        <p>Camisa Vasco Oficial</p>
         <p className="preco">R$ 179.00</p>
       </div>
       <div className="produto">
-        <img src="../src/assets/logo.png" alt="Camisa Vasco Dourada" className="img-produto" />
-        <p>Camisa Vasco Dourada</p>
+        <img src="../src/assets/vasco4-removebg-preview.png" alt="Camisa Vasco " className="img-produto" />
+        <p>Camisa Vasco Preta</p>
         <p className="preco">R$ 129.90</p>
       </div>
     </div>
