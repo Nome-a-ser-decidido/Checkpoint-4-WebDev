@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="*" element={<Error />} /> {/* Rota padrão para erros */}
-        <Route path="/" element={<Sobre />} />
+        <Route path="/" element={<Home />} />
         <Route path="/produto" element={<Produto />} />
       </Routes>
       <Footer />

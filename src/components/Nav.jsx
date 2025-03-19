@@ -4,9 +4,7 @@ import "../css/header.css"
 const Nav = () => {
   return (
     <header>
-      <div>
-
-      </div>
+      <img src="../assets/logo.png" alt="" />
     </header>
   )
 }
