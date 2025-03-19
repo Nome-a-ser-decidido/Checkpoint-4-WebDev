@@ -4,6 +4,10 @@ import '../css/produtos.css'
 const Produtos = () => {
   return (
     <div className="container">
+      <div className="intro-text">
+        <h2>Confira nossa coleção</h2>
+        <p>Se ser Vasco é ser sofrido, que possamos sofrer com estilo!</p>
+      </div>
     <div className="destaque">
       <img src="../src/assets/vasco1-removebg-preview.png" alt="Camisa Vasco" className="img-destaque" />
       <div className="info">
@@ -12,6 +16,8 @@ const Produtos = () => {
         <button className="comprar">COMPRE JÁ</button>
       </div>
     </div>
+
+    <h2 className='titulo-central'>Confira nossas outras camisetas</h2>
 
     <div className="produtos-grid">
       <div className="produto">
