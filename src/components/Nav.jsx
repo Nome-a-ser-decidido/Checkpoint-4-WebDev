@@ -6,11 +6,13 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <header>
-      <Link to="/">Home</Link>
-      <img src={Logo} alt="" />
+      <Link to="/" class='tlink'>
+      <img src={Logo} alt="Logo" />
+      </Link>
       <div class="produto-sobre">
-        <Link to="/produto">Produtos</Link>
-        <Link to="/sobre">Sobre</Link>
+      <Link to="/" class='tlink'>Home</Link>
+        <Link to="/produto" class='tlink'>Produtos</Link>
+        <Link to="/sobre" class='tlink'>Sobre</Link>
       </div>
     </header>
   )
