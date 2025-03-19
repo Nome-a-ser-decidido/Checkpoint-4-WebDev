@@ -1,16 +1,17 @@
-import React from 'react'
-import "../css/header.css"
-import "../assets/Vasco.png"
+import React from 'react';
+import "../css/header.css";
+import Logo from "/src/assets/logo.png";
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <header>
-      <div>Home</div>
-          <img src="src/assets/logo.png" alt="" />
-          <div class="produto-sobre">
-          <div>Produtos</div>
-          <div>Sobre</div>
-       </div>
+      <Link to="/">Home</Link>
+      <img src={Logo} alt="" />
+      <div class="produto-sobre">
+        <Link to="/produto">Produtos</Link>
+        <Link to="/sobre">Sobre</Link>
+      </div>
     </header>
   )
 }
