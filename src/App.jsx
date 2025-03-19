@@ -10,13 +10,14 @@ import Sobre from "./routes/Sobre"
 
 function App() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <div>
     <BrowserRouter>
       <Nav />
       <Routes>
         <Route path="*" element={<Error />} /> {/* Rota padrão para erros */}
-        <Route path="/" element={<Sobre />} />
+        <Route path="/" element={<Home />} />
         <Route path="/produto" element={<Produto />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
       <Footer />
     </BrowserRouter>

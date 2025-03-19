@@ -1,0 +1,21 @@
+header{
+    background-color: #000000;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+img{
+    width: 50px;
+}
+
+.produto-sobre{
+    display: flex;
+    gap: 30px;
+}

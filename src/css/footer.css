@@ -3,8 +3,17 @@
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    margin-top: 320px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.telefone-email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
