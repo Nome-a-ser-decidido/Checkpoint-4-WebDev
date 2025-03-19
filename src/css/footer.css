@@ -2,8 +2,17 @@
     background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 20px;
+    position:fixed;
     text-align: center;
     bottom: 0;
     left: 0;
     width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.telefone-email{
+    display: flex;
+    gap: 10px;
 }
