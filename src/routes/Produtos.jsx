@@ -5,7 +5,7 @@ const Produtos = () => {
   return (
     <div className="container">
     <div className="destaque">
-      <img src="../src/assets/logo.png" alt="Camisa Vasco" className="img-destaque" />
+      <img src="../src/assets/vasco1-removebg-preview.png" alt="Camisa Vasco" className="img-destaque" />
       <div className="info">
         <p>Camisa do Vasco, confortável e moderna.</p>
         <p className="preco">R$ 129.90</p>
