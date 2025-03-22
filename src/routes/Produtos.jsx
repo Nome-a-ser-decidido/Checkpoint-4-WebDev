@@ -2,6 +2,8 @@ import React from 'react'
 import '../css/produtos.css'
 import Image1 from "/src/assets/vasco1-removebg-preview.png";
 import Image2 from "/src/assets/vasco22-removebg-preview.png";
+import Image3 from "/src/assets/vasco3-removebg-preview.png";
+import Image4 from "/src/assets/vasco4-removebg-preview.png"
 
 const Produtos = () => {
   return (
@@ -28,12 +30,12 @@ const Produtos = () => {
         <p className="preco">R$ 129.90</p>
       </div>
       <div className="produto">
-        <img src="/src/assets/vasco3-removebg-preview.png" alt="Camisa Vasco Preta" className="img-produto" />
+        <img src={Image3} alt="Camisa Vasco Preta" className="img-produto" />
         <p>Camisa Vasco Oficial</p>
         <p className="preco">R$ 179.00</p>
       </div>
       <div className="produto">
-        <img src="/src/assets/vasco4-removebg-preview.png" alt="Camisa Vasco " className="img-produto" />
+        <img src={Image4} alt="Camisa Vasco " className="img-produto" />
         <p>Camisa Vasco Preta</p>
         <p className="preco">R$ 129.90</p>
       </div>
