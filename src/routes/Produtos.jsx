@@ -9,7 +9,7 @@ const Produtos = () => {
         <p>Se ser Vasco é ser sofrido, que possamos sofrer com estilo!</p>
       </div>
     <div className="destaque">
-      <img src="../src/assets/vasco1-removebg-preview.png" alt="Camisa Vasco" className="img-destaque" />
+      <img src="/src/assets/vasco1-removebg-preview.png" alt="Camisa Vasco" className="img-destaque" />
       <div className="info">
         <p>Camisa do Vasco, confortável e moderna.</p>
         <p className="preco">R$ 129.90</p>
@@ -21,17 +21,17 @@ const Produtos = () => {
 
     <div className="produtos-grid">
       <div className="produto">
-        <img src="../src/assets/vasco22-removebg-preview.png" alt="Camisa Vasco" className="img-produto" />
+        <img src="/src/assets/vasco22-removebg-preview.png" alt="Camisa Vasco" className="img-produto" />
         <p>Camisa Vasco Dourada</p>
         <p className="preco">R$ 129.90</p>
       </div>
       <div className="produto">
-        <img src="../src/assets/vasco3-removebg-preview.png" alt="Camisa Vasco Preta" className="img-produto" />
+        <img src="/src/assets/vasco3-removebg-preview.png" alt="Camisa Vasco Preta" className="img-produto" />
         <p>Camisa Vasco Oficial</p>
         <p className="preco">R$ 179.00</p>
       </div>
       <div className="produto">
-        <img src="../src/assets/vasco4-removebg-preview.png" alt="Camisa Vasco " className="img-produto" />
+        <img src="/src/assets/vasco4-removebg-preview.png" alt="Camisa Vasco " className="img-produto" />
         <p>Camisa Vasco Preta</p>
         <p className="preco">R$ 129.90</p>
       </div>
