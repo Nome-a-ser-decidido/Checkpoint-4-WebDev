@@ -1,5 +1,7 @@
 import React from 'react'
 import '../css/produtos.css'
+import Image1 from "/src/assets/vasco1-removebg-preview.png";
+import Image2 from "/src/assets/vasco22-removebg-preview.png";
 
 const Produtos = () => {
   return (
@@ -9,7 +11,7 @@ const Produtos = () => {
         <p>Se ser Vasco é ser sofrido, que possamos sofrer com estilo!</p>
       </div>
     <div className="destaque">
-      <img src="/src/assets/vasco1-removebg-preview.png" alt="Camisa Vasco" className="img-destaque" />
+      <img src={Image1} alt="Camisa Vasco" className="img-destaque" />
       <div className="info">
         <p>Camisa do Vasco, confortável e moderna.</p>
         <p className="preco">R$ 129.90</p>
@@ -21,7 +23,7 @@ const Produtos = () => {
 
     <div className="produtos-grid">
       <div className="produto">
-        <img src="/src/assets/vasco22-removebg-preview.png" alt="Camisa Vasco" className="img-produto" />
+        <img src={Image2} alt="Camisa Vasco" className="img-produto" />
         <p>Camisa Vasco Dourada</p>
         <p className="preco">R$ 129.90</p>
       </div>
